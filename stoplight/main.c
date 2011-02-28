@@ -54,14 +54,14 @@ void ColorScreening(IplImage *src, IplImage *dst)
 			//printf("src: %d %d %d\n", r, g, b);
 			//printf("cal: %d %f %d\n", hue, sat, ins);
 			if (((hue >= H_MIN1 && hue <= H_MAX1) || (hue >= H_MIN2 && hue <= H_MAX2)) && sat >= S_THRESHOLD && ins >= I_THRESHOLD){
-				dstp[3*j] = b;
-				dstp[3*j+1] = g;
+				dstp[3*j] = 0;
+				dstp[3*j+1] = 0;
 				dstp[3*j+2] = r;
 				//printf("sto: %d %d %d\n", dstp[3*j], dstp[3*j+1], dstp[3*j+2]);
 			} else {
-				dstp[3*j] = 255;
-				dstp[3*j+1] = 255;
-				dstp[3*j+2] = 255;
+				dstp[3*j] = 0;
+				dstp[3*j+1] = 0;
+				dstp[3*j+2] = 0;
 				//printf("sto: %d %d %d\n", dstp[3*j], dstp[3*j+1], dstp[3*j+2]);
 			}
 		}
@@ -69,14 +69,25 @@ void ColorScreening(IplImage *src, IplImage *dst)
 }
 
 int main (int argc, const char * argv[]) {
-	IplImage* redLight = cvLoadImage(argv[2], CV_LOAD_IMAGE_COLOR);
+	IplImage* redLight = cvLoadImage(argv[1], CV_LOAD_IMAGE_COLOR);
 	CvSize sz = cvGetSize(redLight);
 	IplImage* redScreened = cvCreateImage(sz, redLight->depth, redLight->nChannels);
+	IplImage* redErode = cvCreateImage(sz, redLight->depth, redLight->nChannels);
+	IplImage* redDilate = cvCreateImage(sz, redLight->depth, redLight->nChannels);
+	
 	ColorScreening(redLight, redScreened);
+	cvDilate(redScreened, redDilate, NULL, 1);
+	cvErode(redDilate, redErode, NULL, 1);
 	
 	cvNamedWindow("Light Detector",CV_WINDOW_AUTOSIZE); 
+	cvShowImage("Light Detector", redLight);
+	cvWaitKey(0);
 	cvShowImage("Light Detector",redScreened); 
 	cvWaitKey(0); 
+	cvShowImage("Light Detector", redDilate);
+	cvWaitKey(0);
+	cvShowImage("Light Detector", redErode);
+	cvWaitKey(0);
 	cvReleaseImage(&redLight);
 	cvDestroyWindow("Light Detector");
 }
