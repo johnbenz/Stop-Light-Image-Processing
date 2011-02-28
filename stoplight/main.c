@@ -68,16 +68,22 @@ void ColorScreening(IplImage *src, IplImage *dst)
 	}
 }
 
+void LabelRegions()
+{
+	
+}
+
 int main (int argc, const char * argv[]) {
 	IplImage* redLight = cvLoadImage(argv[1], CV_LOAD_IMAGE_COLOR);
+	IplImage* greenLight = cvLoadImage(argv[2], CV_LOAD_IMAGE_COLOR);
 	CvSize sz = cvGetSize(redLight);
 	IplImage* redScreened = cvCreateImage(sz, redLight->depth, redLight->nChannels);
 	IplImage* redErode = cvCreateImage(sz, redLight->depth, redLight->nChannels);
 	IplImage* redDilate = cvCreateImage(sz, redLight->depth, redLight->nChannels);
 	
 	ColorScreening(redLight, redScreened);
-	cvDilate(redScreened, redDilate, NULL, 1);
-	cvErode(redDilate, redErode, NULL, 1);
+	cvDilate(redScreened, redDilate, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+	cvErode(redDilate, redErode, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
 	
 	cvNamedWindow("Light Detector",CV_WINDOW_AUTOSIZE); 
 	cvShowImage("Light Detector", redLight);
@@ -88,6 +94,21 @@ int main (int argc, const char * argv[]) {
 	cvWaitKey(0);
 	cvShowImage("Light Detector", redErode);
 	cvWaitKey(0);
+
+	cvShowImage("Light Detector", greenLight);
+	cvWaitKey(0);
+	
+	ColorScreening(greenLight, redScreened);
+	cvDilate(redScreened, redDilate, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+	cvErode(redDilate, redErode, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+	cvShowImage("Light Detector", redErode);
+
+	cvWaitKey(0);
+	
+	cvReleaseImage(&greenLight);
 	cvReleaseImage(&redLight);
+	cvReleaseImage(&redScreened);
+	cvReleaseImage(&redErode);
+	cvReleaseImage(&redDilate);
 	cvDestroyWindow("Light Detector");
 }
