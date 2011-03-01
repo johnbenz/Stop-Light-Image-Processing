@@ -1,0 +1,827 @@
+Tstoplight
+v7
+r0
+t320547795.010434
+cCheck dependencies
+cCompileC build/stoplight.build/Debug/stoplight.build/Objects-normal/i386/main.o /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h
+c000000004BBD2CE90000000000000588
+t1270689001
+s1416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/mman.h
+c000000004C2399470000000000002098
+t1277401415
+s8344
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004A11EB24000000000000EA8F
+t1242688292
+s60047
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A11EB240000000000001538
+t1242688292
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB240000000000000C7E
+t1242688292
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/pmmintrin.h
+c000000004A11EB24000000000000155D
+t1242688292
+s5469
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight
+t2
+s0
+
+N/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/i386/main.o
+t1298854994
+s34744
+
+N/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/i386/stoplight.LinkFileList
+c000000004D6AF452000000000000008D
+t1298854994
+s141
+
+N/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/x86_64/stoplight.LinkFileList
+c000000004D6AF16C000000000000008F
+t1298854252
+s143
+
+N/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c
+c000000004D6AF4400000000000000127
+t1298854976
+s295
+i<highgui.h>
+i<cv.h>
+
+N/opt/local/include/opencv/cv.h
+c000000004CFB087C0000000000000D55
+t1291520124
+s3413
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/video/tracking.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/flann/flann.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/legacy/compat.hpp"
+i"opencv2/core/internal.hpp"
+
+N/opt/local/include/opencv/cxcore.h
+c000000004CFB087C00000000000009D6
+t1291520124
+s2518
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/opt/local/include/opencv/highgui.h
+c000000004CFB087C0000000000000902
+t1291520124
+s2306
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+
+N/opt/local/include/opencv2/calib3d/calib3d.hpp
+c000000004CFB087C000000000000938A
+t1291520124
+s37770
+i"opencv2/core/core.hpp"
+
+N/opt/local/include/opencv2/core/core.hpp
+c000000004CFB087C000000000002729D
+t1291520124
+s160413
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/opt/local/include/opencv2/core/core_c.h
+c000000004CFB087C00000000000132CE
+t1291520124
+s78542
+i"opencv2/core/types_c.h"
+
+N/opt/local/include/opencv2/core/eigen.hpp
+c000000004CFB087C000000000000193E
+t1291520124
+s6462
+i"cxcore.h"
+
+N/opt/local/include/opencv2/core/internal.hpp
+c000000004CFB087C00000000000079C6
+t1291520124
+s31174
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/opt/local/include/opencv2/core/mat.hpp
+c000000004CFB087C0000000000012822
+t1291520124
+s75810
+i<limits.h>
+i<string.h>
+
+N/opt/local/include/opencv2/core/operations.hpp
+c000000004CFB087C000000000001C7C1
+t1291520124
+s116673
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+i<limits>
+
+N/opt/local/include/opencv2/core/types_c.h
+c000000004CFB087C000000000000DD3A
+t1291520124
+s56634
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/opt/local/include/opencv2/core/version.hpp
+c000000004CFB087C00000000000009EA
+t1291520124
+s2538
+
+N/opt/local/include/opencv2/features2d/features2d.hpp
+c000000004CFB087C000000000001B707
+t1291520124
+s112391
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i<limits>
+
+N/opt/local/include/opencv2/flann/all_indices.h
+c000000004CFB087C0000000000000B0D
+t1291520124
+s2829
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/kdtree_index.h"
+i"opencv2/flann/kmeans_index.h"
+i"opencv2/flann/composite_index.h"
+i"opencv2/flann/linear_index.h"
+i"opencv2/flann/autotuned_index.h"
+
+N/opt/local/include/opencv2/flann/allocator.h
+c000000004CFB087C00000000000015E5
+t1291520124
+s5605
+i<stdlib.h>
+i<stdio.h>
+
+N/opt/local/include/opencv2/flann/autotuned_index.h
+c000000004CFB087C000000000000548E
+t1291520124
+s21646
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/ground_truth.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/sampling.h"
+i"opencv2/flann/all_indices.h"
+
+N/opt/local/include/opencv2/flann/composite_index.h
+c000000004CFB087C0000000000001310
+t1291520124
+s4880
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/opt/local/include/opencv2/flann/dist.h
+c000000004CFB087C000000000000291E
+t1291520124
+s10526
+i<cmath>
+i"opencv2/flann/general.h"
+
+N/opt/local/include/opencv2/flann/flann.hpp
+c000000004CFB087C0000000000001DF2
+t1291520124
+s7666
+i"opencv2/flann/flann_base.hpp"
+
+N/opt/local/include/opencv2/flann/flann_base.hpp
+c000000004CFB087C0000000000001CD6
+t1291520124
+s7382
+i<vector>
+i<string>
+i<cassert>
+i<cstdio>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/object_factory.h"
+i"opencv2/flann/saving.h"
+i"opencv2/flann/all_indices.h"
+
+N/opt/local/include/opencv2/flann/general.h
+c000000004CFB087C0000000000000DFD
+t1291520124
+s3581
+i<stdexcept>
+i<cassert>
+i"opencv2/flann/object_factory.h"
+
+N/opt/local/include/opencv2/flann/ground_truth.h
+c000000004CFB087C0000000000000C0F
+t1291520124
+s3087
+i"opencv2/flann/dist.h"
+i"opencv2/flann/matrix.h"
+
+N/opt/local/include/opencv2/flann/heap.h
+c000000004CFB087C00000000000012F4
+t1291520124
+s4852
+i<algorithm>
+
+N/opt/local/include/opencv2/flann/index_testing.h
+c000000004CFB087C00000000000025BB
+t1291520124
+s9659
+i<cstring>
+i<cassert>
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/logger.h"
+i"opencv2/flann/timer.h"
+
+N/opt/local/include/opencv2/flann/kdtree_index.h
+c000000004CFB087C00000000000041A9
+t1291520124
+s16809
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+i"opencv2/flann/saving.h"
+
+N/opt/local/include/opencv2/flann/kmeans_index.h
+c000000004CFB087C00000000000076BE
+t1291520124
+s30398
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+
+N/opt/local/include/opencv2/flann/linear_index.h
+c000000004CFB087C0000000000000C7F
+t1291520124
+s3199
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/opt/local/include/opencv2/flann/logger.h
+c000000004CFB087C0000000000000A84
+t1291520124
+s2692
+i<cstdio>
+i<stdarg.h>
+i"opencv2/flann/general.h"
+
+N/opt/local/include/opencv2/flann/matrix.h
+c000000004CFB087C0000000000000BAE
+t1291520124
+s2990
+i<stdio.h>
+i"opencv2/flann/general.h"
+
+N/opt/local/include/opencv2/flann/nn_index.h
+c000000004CFB087C0000000000000B6A
+t1291520124
+s2922
+i<string>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+
+N/opt/local/include/opencv2/flann/object_factory.h
+c000000004CFB087C0000000000000BA3
+t1291520124
+s2979
+i"opencv2/core/types_c.h"
+i<map>
+
+N/opt/local/include/opencv2/flann/random.h
+c000000004CFB087C0000000000000DF2
+t1291520124
+s3570
+i<algorithm>
+i<cstdlib>
+i<cassert>
+
+N/opt/local/include/opencv2/flann/result_set.h
+c000000004CFB087C0000000000001A7E
+t1291520124
+s6782
+i<algorithm>
+i<limits>
+i<vector>
+i"opencv2/flann/dist.h"
+
+N/opt/local/include/opencv2/flann/sampling.h
+c000000004CFB087C0000000000000C04
+t1291520124
+s3076
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/random.h"
+
+N/opt/local/include/opencv2/flann/saving.h
+c000000004CFB087C0000000000000FC5
+t1291520124
+s4037
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i<cstdio>
+i<cstring>
+
+N/opt/local/include/opencv2/flann/timer.h
+c000000004CFB087C0000000000000997
+t1291520124
+s2455
+i<time.h>
+
+N/opt/local/include/opencv2/highgui/highgui.hpp
+c000000004CFB087C0000000000001A87
+t1291520124
+s6791
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/opt/local/include/opencv2/highgui/highgui_c.h
+c000000004CFB087C0000000000003D5C
+t1291520124
+s15708
+i"opencv2/core/core_c.h"
+i<windows.h>
+
+N/opt/local/include/opencv2/imgproc/imgproc.hpp
+c000000004CFB087D000000000000A768
+t1291520125
+s42856
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc_c.h
+c000000004CFB087D0000000000009012
+t1291520125
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/types_c.h
+c000000004CFB087D0000000000003352
+t1291520125
+s13138
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/legacy/compat.hpp
+c000000004CFB087D00000000000064DF
+t1291520125
+s25823
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+i<math.h>
+i<string.h>
+
+N/opt/local/include/opencv2/objdetect/objdetect.hpp
+c000000004CFB087D0000000000003CC1
+t1291520125
+s15553
+i"opencv2/core/core.hpp"
+
+N/opt/local/include/opencv2/video/tracking.hpp
+c000000004CFB087D00000000000040D9
+t1291520125
+s16601
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+N/opt/local/lib/libopencv_calib3d.2.2.0.dylib
+c000000004D6AEBB20000000000082288
+t1298852786
+s533128
+
+N/opt/local/lib/libopencv_calib3d.2.2.dylib
+c000000004D6AEBB20000000000082288
+t1298852786
+s533128
+
+N/opt/local/lib/libopencv_calib3d.dylib
+c000000004D6AEBB20000000000082288
+t1298852786
+s533128
+
+N/opt/local/lib/libopencv_contrib.2.2.0.dylib
+c000000004D6AEBF10000000000048AE8
+t1298852849
+s297704
+
+N/opt/local/lib/libopencv_contrib.2.2.dylib
+c000000004D6AEBF10000000000048AE8
+t1298852849
+s297704
+
+N/opt/local/lib/libopencv_contrib.dylib
+c000000004D6AEBF10000000000048AE8
+t1298852849
+s297704
+
+N/opt/local/lib/libopencv_core.2.2.0.dylib
+c000000004D6AEB4A00000000002DAAA0
+t1298852682
+s2992800
+
+N/opt/local/lib/libopencv_core.2.2.dylib
+c000000004D6AEB4A00000000002DAAA0
+t1298852682
+s2992800
+
+N/opt/local/lib/libopencv_core.dylib
+c000000004D6AEB4A00000000002DAAA0
+t1298852682
+s2992800
+
+N/opt/local/lib/libopencv_features2d.2.2.0.dylib
+c000000004D6AEBDE0000000000109B10
+t1298852830
+s1088272
+
+N/opt/local/lib/libopencv_features2d.2.2.dylib
+c000000004D6AEBDE0000000000109B10
+t1298852830
+s1088272
+
+N/opt/local/lib/libopencv_features2d.dylib
+c000000004D6AEBDE0000000000109B10
+t1298852830
+s1088272
+
+N/opt/local/lib/libopencv_flann.2.2.0.dylib
+c000000004D6AEB4E0000000000008628
+t1298852686
+s34344
+
+N/opt/local/lib/libopencv_flann.2.2.dylib
+c000000004D6AEB4E0000000000008628
+t1298852686
+s34344
+
+N/opt/local/lib/libopencv_flann.dylib
+c000000004D6AEB4E0000000000008628
+t1298852686
+s34344
+
+N/opt/local/lib/libopencv_gpu.2.2.0.dylib
+c000000004D6AEBAC0000000000017CE0
+t1298852780
+s97504
+
+N/opt/local/lib/libopencv_gpu.2.2.dylib
+c000000004D6AEBAC0000000000017CE0
+t1298852780
+s97504
+
+N/opt/local/lib/libopencv_gpu.dylib
+c000000004D6AEBAC0000000000017CE0
+t1298852780
+s97504
+
+N/opt/local/lib/libopencv_highgui.2.2.0.dylib
+c000000004D6AEB95000000000013C440
+t1298852757
+s1295424
+
+N/opt/local/lib/libopencv_highgui.2.2.dylib
+c000000004D6AEB95000000000013C440
+t1298852757
+s1295424
+
+N/opt/local/lib/libopencv_highgui.dylib
+c000000004D6AEB95000000000013C440
+t1298852757
+s1295424
+
+N/opt/local/lib/libopencv_imgproc.2.2.0.dylib
+c000000004D6AEB8700000000001E19B8
+t1298852743
+s1972664
+
+N/opt/local/lib/libopencv_imgproc.2.2.dylib
+c000000004D6AEB8700000000001E19B8
+t1298852743
+s1972664
+
+N/opt/local/lib/libopencv_imgproc.dylib
+c000000004D6AEB8700000000001E19B8
+t1298852743
+s1972664
+
+N/opt/local/lib/libopencv_legacy.2.2.0.dylib
+c000000004D6AEBF500000000000C57F8
+t1298852853
+s808952
+
+N/opt/local/lib/libopencv_legacy.2.2.dylib
+c000000004D6AEBF500000000000C57F8
+t1298852853
+s808952
+
+N/opt/local/lib/libopencv_legacy.dylib
+c000000004D6AEBF500000000000C57F8
+t1298852853
+s808952
+
+N/opt/local/lib/libopencv_ml.2.2.0.dylib
+c000000004D6AEB620000000000072FD0
+t1298852706
+s470992
+
+N/opt/local/lib/libopencv_ml.2.2.dylib
+c000000004D6AEB620000000000072FD0
+t1298852706
+s470992
+
+N/opt/local/lib/libopencv_ml.dylib
+c000000004D6AEB620000000000072FD0
+t1298852706
+s470992
+
+N/opt/local/lib/libopencv_objdetect.2.2.0.dylib
+c000000004D6AEBA5000000000004B818
+t1298852773
+s309272
+
+N/opt/local/lib/libopencv_objdetect.2.2.dylib
+c000000004D6AEBA5000000000004B818
+t1298852773
+s309272
+
+N/opt/local/lib/libopencv_objdetect.dylib
+c000000004D6AEBA5000000000004B818
+t1298852773
+s309272
+
+N/opt/local/lib/libopencv_video.2.2.0.dylib
+c000000004D6AEB91000000000003ABE8
+t1298852753
+s240616
+
+N/opt/local/lib/libopencv_video.2.2.dylib
+c000000004D6AEB91000000000003ABE8
+t1298852753
+s240616
+
+N/opt/local/lib/libopencv_video.dylib
+c000000004D6AEB91000000000003ABE8
+t1298852753
+s240616
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320547794#320547794#0(0"0(0#1#0"8627651744#0"0#
+
+CCompileC build/stoplight.build/Debug/stoplight.build/Objects-normal/i386/main.o /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c normal i386 c com.apple.compilers.gcc.4_2
+s320547794.837613
+e320547794.981903
+r1
+xCompileC
+xbuild/stoplight.build/Debug/stoplight.build/Objects-normal/i386/main.o
+x/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547794#320547794#0(0"0(0#0#76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c8625254528#4274"    cd /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-generated-files.hmap -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-own-target-headers.hmap -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-all-target-headers.hmap -iquote /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-project-headers.hmap -F/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/include -I/opt/local/include -I/opt/local/include/cppunit -I/opt/local/include/db46 -I/opt/local/include/dbus-1.0 -I/opt/local/include/dc1394 -I/opt/local/include/dirac -I/opt/local/include/freetype2 -I/opt/local/include/gio-unix-2.0 -I/opt/local/include/glib-2.0 -I/opt/local/include/lame -I/opt/local/include/libavcodec -I/opt/local/include/libavdevice -I/opt/local/include/libavfilter -I/opt/local/include/libavformat -I/opt/local/include/libavutil -I/opt/local/include/libltdl -I/opt/local/include/liboil-0.3 -I/opt/local/include/libpng12 -I/opt/local/include/libpostproc -I/opt/local/include/libswscale -I/opt/local/include/libusb-1.0 -I/opt/local/include/libxml2 -I/opt/local/include/libyasm -I/opt/local/include/ncurses -I/opt/local/include/ncursesw -I/opt/local/include/ogg -I/opt/local/include/opencv -I/opt/local/include/opencv2 -I/opt/local/include/openssl -I/opt/local/include/orc-0.4 -I/opt/local/include/readline -I/opt/local/include/schroedinger-1.0 -I/opt/local/include/SDL -I/opt/local/include/speex -I/opt/local/include/theora -I/opt/local/include/vorbis -I/opt/local/include/vpx -I/opt/local/include/X11 -I/opt/local/include/xcb -I/opt/local/include/cppunit/config -I/opt/local/include/cppunit/extensions -I/opt/local/include/cppunit/plugin -I/opt/local/include/cppunit/portability -I/opt/local/include/cppunit/tools -I/opt/local/include/cppunit/ui -I/opt/local/include/dbus-1.0/dbus -I/opt/local/include/dc1394/macosx -I/opt/local/include/dc1394/vendor -I/opt/local/include/dirac/libdirac_common -I/opt/local/include/dirac/libdirac_decoder -I/opt/local/include/dirac/libdirac_encoder -I/opt/local/include/freetype2/freetype -I/opt/local/include/gio-unix-2.0/gio -I/opt/local/include/glib-2.0/gio -I/opt/local/include/glib-2.0/glib -I/opt/local/include/glib-2.0/gobject -I/opt/local/include/liboil-0.3/liboil -I/opt/local/include/libxml2/libxml -I/opt/local/include/opencv2/calib3d -I/opt/local/include/opencv2/contrib -I/opt/local/include/opencv2/core -I/opt/local/include/opencv2/features2d -I/opt/local/include/opencv2/flann -I/opt/local/include/opencv2/gpu -I/opt/local/include/opencv2/highgui -I/opt/local/include/opencv2/imgproc -I/opt/local/include/opencv2/legacy -I/opt/local/include/opencv2/ml -I/opt/local/include/opencv2/objdetect -I/opt/local/include/opencv2/video -I/opt/local/include/orc-0.4/orc -I/opt/local/include/orc-0.4/orc-test -I/opt/local/include/schroedinger-1.0/schroedinger -I/opt/local/include/X11/extensions -I/opt/local/include/X11/Xtrans -I/opt/local/include/cppunit/ui/mfc -I/opt/local/include/cppunit/ui/qt -I/opt/local/include/cppunit/ui/text -I/opt/local/include/freetype2/freetype/config -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/DerivedSources/i386 -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/DerivedSources -c /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c -o /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/i386/main.o0#
+
+CCompileC build/stoplight.build/Debug/stoplight.build/Objects-normal/x86_64/main.o /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s320547143.972462
+e320547144.030379
+r0
+xCompileC
+xbuild/stoplight.build/Debug/stoplight.build/Objects-normal/x86_64/main.o
+x/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#320547144#0(4244"In file included from /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:1:/opt/local/include/opencv/highgui.h:45:33: error: opencv2/core/core_c.h: No such file or directory/opt/local/include/opencv/highgui.h:46:33: error: opencv2/core/core.hpp: No such file or directory/opt/local/include/opencv/highgui.h:47:39: error: opencv2/highgui/highgui_c.h: No such file or directory/opt/local/include/opencv/highgui.h:48:39: error: opencv2/highgui/highgui.hpp: No such file or directory/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c: In function 'main':/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:4: error: 'IplImage' undeclared (first use in this function)/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:4: error: (Each undeclared identifier is reported only once/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:4: error: for each function it appears in.)/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:4: error: 'img' undeclared (first use in this function)/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:4: warning: implicit declaration of function 'cvLoadImage'/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: warning: implicit declaration of function 'cvNamedWindow'/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: stray '\342' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: stray '\200' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: stray '\234' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: stray '\342' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: stray '\200' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: stray '\235' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: 'Example1' undeclared (first use in this function)/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:5: error: 'CV_WINDOW_AUTOSIZE' undeclared (first use in this function)/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: warning: implicit declaration of function 'cvShowImage'/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: error: stray '\342' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: error: stray '\200' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: error: stray '\234' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: error: stray '\342' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: error: stray '\200' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:6: error: stray '\235' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:7: warning: implicit declaration of function 'cvWaitKey'/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:8: warning: implicit declaration of function 'cvReleaseImage'/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: warning: implicit declaration of function 'cvDestroyWindow'/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: error: stray '\342' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: error: stray '\200' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: error: stray '\234' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: error: stray '\342' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: error: stray '\200' in program/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c:9: error: stray '\235' in program32(4@48"Opencv2/core/core_c.h: No such file or directory320547144#102#99#2(7@98"In file included from /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547144#18446744073709551615#0#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#1#0#1#0#0"0(13@87"Opencv2/core/core_c.h: No such file or directory in /opt/local/include/opencv/highgui.h320547144#18446744073709551615#0#0(6@35"/opt/local/include/opencv/highgui.h313212924#45#0#45#0#0"0(6@35"/opt/local/include/opencv/highgui.h313212924#45#0#45#0#28"*: No such file or directory0(4@48"Opencv2/core/core.hpp: No such file or directory320547144#201#99#2(7@98"In file included from /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547144#18446744073709551615#0#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#1#0#1#0#0"0(13@87"Opencv2/core/core.hpp: No such file or directory in /opt/local/include/opencv/highgui.h320547144#18446744073709551615#0#0(6@35"/opt/local/include/opencv/highgui.h313212924#46#0#46#0#0"0(6@35"/opt/local/include/opencv/highgui.h313212924#46#0#46#0#28"*: No such file or directory0(4@54"Opencv2/highgui/highgui_c.h: No such file or directory320547144#300#105#2(7@98"In file included from /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547144#18446744073709551615#0#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#1#0#1#0#0"0(13@93"Opencv2/highgui/highgui_c.h: No such file or directory in /opt/local/include/opencv/highgui.h320547144#18446744073709551615#0#0(6@35"/opt/local/include/opencv/highgui.h313212924#47#0#47#0#0"0(6@35"/opt/local/include/opencv/highgui.h313212924#47#0#47#0#28"*: No such file or directory0(4@54"Opencv2/highgui/highgui.hpp: No such file or directory320547144#405#105#2(7@98"In file included from /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547144#18446744073709551615#0#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#1#0#1#0#0"0(13@93"Opencv2/highgui/highgui.hpp: No such file or directory in /opt/local/include/opencv/highgui.h320547144#18446744073709551615#0#0(6@35"/opt/local/include/opencv/highgui.h313212924#48#0#48#0#0"0(6@35"/opt/local/include/opencv/highgui.h313212924#48#0#48#0#28"*: No such file or directory0(4@50"'IplImage' undeclared (first use in this function)320547144#608#138#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#4#0#4#0#43"'*' undeclared (first use in this function)0(4@45"'img' undeclared (first use in this function)320547144#1004#133#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#4#0#4#0#43"'*' undeclared (first use in this function)0(22@46"Implicit declaration of function 'cvLoadImage'320547144#1137#136#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#4#0#4#0#36"implicit declaration of function '*'0(22@48"Implicit declaration of function 'cvNamedWindow'320547144#1273#138#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#36"implicit declaration of function '*'0(4@23"Stray '\342' in program320547144#1411#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#20"stray '*' in program0(4@23"Stray '\200' in program320547144#1522#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#20"stray '*' in program0(4@23"Stray '\234' in program320547144#1633#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#20"stray '*' in program0(4@23"Stray '\342' in program320547144#1744#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#20"stray '*' in program0(4@23"Stray '\200' in program320547144#1855#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#20"stray '*' in program0(4@23"Stray '\235' in program320547144#1966#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#20"stray '*' in program0(4@50"'Example1' undeclared (first use in this function)320547144#2077#138#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#43"'*' undeclared (first use in this function)0(4@60"'CV_WINDOW_AUTOSIZE' undeclared (first use in this function)320547144#2215#148#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#5#0#5#0#43"'*' undeclared (first use in this function)0(22@46"Implicit declaration of function 'cvShowImage'320547144#2363#136#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#36"implicit declaration of function '*'0(4@23"Stray '\342' in program320547144#2499#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#20"stray '*' in program0(4@23"Stray '\200' in program320547144#2610#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#20"stray '*' in program0(4@23"Stray '\234' in program320547144#2721#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#20"stray '*' in program0(4@23"Stray '\342' in program320547144#2832#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#20"stray '*' in program0(4@23"Stray '\200' in program320547144#2943#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#20"stray '*' in program0(4@23"Stray '\235' in program320547144#3054#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#6#0#6#0#20"stray '*' in program0(22@44"Implicit declaration of function 'cvWaitKey'320547144#3165#134#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#7#0#7#0#36"implicit declaration of function '*'0(22@49"Implicit declaration of function 'cvReleaseImage'320547144#3299#139#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#8#0#8#0#36"implicit declaration of function '*'0(22@50"Implicit declaration of function 'cvDestroyWindow'320547144#3438#140#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#36"implicit declaration of function '*'0(4@23"Stray '\342' in program320547144#3578#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#20"stray '*' in program0(4@23"Stray '\200' in program320547144#3689#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#20"stray '*' in program0(4@23"Stray '\234' in program320547144#3800#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#20"stray '*' in program0(4@23"Stray '\342' in program320547144#3911#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#20"stray '*' in program0(4@23"Stray '\200' in program320547144#4022#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#20"stray '*' in program0(4@23"Stray '\235' in program320547144#4133#111#0(6@76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c320547143#9#0#9#0#20"stray '*' in program0(0#0#76"/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c8628095872#1675"    cd /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-generated-files.hmap -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-own-target-headers.hmap -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-all-target-headers.hmap -iquote /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/stoplight-project-headers.hmap -F/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/include -I/opt/local/include/opencv -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/DerivedSources/x86_64 -I/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/DerivedSources -c /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/main.c -o /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/x86_64/main.o1#
+
+CLd /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight normal i386
+s320547794.981991
+e320547795.010373
+r0
+xLd
+x/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight
+xnormal
+xi386
+old: warning: in /opt/local/lib/libopencv_calib3d.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_calib3d.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_calib3d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_contrib.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_contrib.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_contrib.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_core.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_core.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_core.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_features2d.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_features2d.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_features2d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_flann.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_flann.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_flann.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_gpu.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_gpu.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_gpu.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_highgui.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_highgui.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_highgui.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_imgproc.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_imgproc.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_imgproc.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_legacy.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_legacy.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_legacy.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_ml.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_ml.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_ml.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_objdetect.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_objdetect.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_objdetect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_video.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_video.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_video.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  "_cvReleaseMat", referenced from:
+o      _cvReleaseMatND in main.o
+o  "_cvInitSubdivDelaunay2D", referenced from:
+o      _cvCreateSubdivDelaunay2D in main.o
+o  "_cvAddS", referenced from:
+o      _cvSubS in main.o
+o  "_cvLoadImage", referenced from:
+o      _main in main.o
+o  "_cvSeqSlice", referenced from:
+o      _cvCloneSeq in main.o
+o  "_cvEllipse", referenced from:
+o      _cvEllipseBox in main.o
+o  "_cvRead", referenced from:
+o      _cvReadByName in main.o
+o  "_cvNamedWindow", referenced from:
+o      _main in main.o
+o  "_cvReleaseImage", referenced from:
+o      _main in main.o
+o  "_cvShowImage", referenced from:
+o      _main in main.o
+o  "_cvFree_", referenced from:
+o      _cvDecRefData in main.o
+o      _cvDecRefData in main.o
+o  "_cvCalcArrHist", referenced from:
+o      _cvCalcHist in main.o
+o  "_cvDestroyWindow", referenced from:
+o      _main in main.o
+o  "_cvGetFileNodeByName", referenced from:
+o      _cvReadIntByName in main.o
+o      _cvReadRealByName in main.o
+o      _cvReadStringByName in main.o
+o      _cvReadByName in main.o
+o  "_cvSetAdd", referenced from:
+o      _cvSetNew in main.o
+o  "_cvGetSeqElem", referenced from:
+o      _cvGetSetElem in main.o
+o  "_cvArcLength", referenced from:
+o      _cvContourPerimeter in main.o
+o  "_cvWaitKey", referenced from:
+o      _main in main.o
+o  "_cvCreateSubdiv2D", referenced from:
+o      _cvCreateSubdivDelaunay2D in main.o
+o  "_cvInitFont", referenced from:
+o      _cvFont in main.o
+o  "_cvGetCols", referenced from:
+o      _cvGetCol in main.o
+o  "_cvGetRows", referenced from:
+o      _cvGetRow in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@96"Link /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight320547794#320547795#0(7056"ld: warning: in /opt/local/lib/libopencv_calib3d.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_calib3d.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_calib3d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_contrib.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_contrib.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_contrib.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_core.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_core.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_core.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_features2d.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_features2d.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_features2d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_flann.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_flann.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_flann.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_gpu.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_gpu.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_gpu.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_highgui.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_highgui.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_highgui.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_imgproc.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_imgproc.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_imgproc.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_legacy.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_legacy.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_legacy.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_ml.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_ml.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_ml.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_objdetect.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_objdetect.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_objdetect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_video.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_video.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_video.dylib, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_cvReleaseMat", referenced from:      _cvReleaseMatND in main.o  "_cvInitSubdivDelaunay2D", referenced from:      _cvCreateSubdivDelaunay2D in main.o  "_cvAddS", referenced from:      _cvSubS in main.o  "_cvLoadImage", referenced from:      _main in main.o  "_cvSeqSlice", referenced from:      _cvCloneSeq in main.o  "_cvEllipse", referenced from:      _cvEllipseBox in main.o  "_cvRead", referenced from:      _cvReadByName in main.o  "_cvNamedWindow", referenced from:      _main in main.o  "_cvReleaseImage", referenced from:      _main in main.o  "_cvShowImage", referenced from:      _main in main.o  "_cvFree_", referenced from:      _cvDecRefData in main.o      _cvDecRefData in main.o  "_cvCalcArrHist", referenced from:      _cvCalcHist in main.o  "_cvDestroyWindow", referenced from:      _main in main.o  "_cvGetFileNodeByName", referenced from:      _cvReadIntByName in main.o      _cvReadRealByName in main.o      _cvReadStringByName in main.o      _cvReadByName in main.o  "_cvSetAdd", referenced from:      _cvSetNew in main.o  "_cvGetSeqElem", referenced from:      _cvGetSetElem in main.o  "_cvArcLength", referenced from:      _cvContourPerimeter in main.o  "_cvWaitKey", referenced from:      _main in main.o  "_cvCreateSubdiv2D", referenced from:      _cvCreateSubdivDelaunay2D in main.o  "_cvInitFont", referenced from:      _cvFont in main.o  "_cvGetCols", referenced from:      _cvGetCol in main.o  "_cvGetRows", referenced from:      _cvGetRow in main.old: symbol(s) not foundcollect2: ld returned 1 exit status86(22@141"In /opt/local/lib/libopencv_calib3d.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#0#155#0(6@0"320547795#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_calib3d.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#155#153#0(6@0"320547795#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_calib3d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#308#149#0(6@0"320547795#0#0#0#0#0"0(22@141"In /opt/local/lib/libopencv_contrib.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#457#155#0(6@0"320547795#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_contrib.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#612#153#0(6@0"320547795#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_contrib.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#765#149#0(6@0"320547795#0#0#0#0#0"0(22@138"In /opt/local/lib/libopencv_core.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#914#152#0(6@0"320547795#0#0#0#0#0"0(22@136"In /opt/local/lib/libopencv_core.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1066#150#0(6@0"320547795#0#0#0#0#0"0(22@132"In /opt/local/lib/libopencv_core.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1216#146#0(6@0"320547795#0#0#0#0#0"0(22@144"In /opt/local/lib/libopencv_features2d.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1362#158#0(6@0"320547795#0#0#0#0#0"0(22@142"In /opt/local/lib/libopencv_features2d.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1520#156#0(6@0"320547795#0#0#0#0#0"0(22@138"In /opt/local/lib/libopencv_features2d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1676#152#0(6@0"320547795#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_flann.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1828#153#0(6@0"320547795#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_flann.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#1981#151#0(6@0"320547795#0#0#0#0#0"0(22@133"In /opt/local/lib/libopencv_flann.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#2132#147#0(6@0"320547795#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_gpu.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#2279#151#0(6@0"320547795#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_gpu.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#2430#149#0(6@0"320547795#0#0#0#0#0"0(22@131"In /opt/local/lib/libopencv_gpu.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#2579#145#0(6@0"320547795#0#0#0#0#0"0(22@141"In /opt/local/lib/libopencv_highgui.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#2724#155#0(6@0"320547795#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_highgui.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#2879#153#0(6@0"320547795#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_highgui.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3032#149#0(6@0"320547795#0#0#0#0#0"0(22@141"In /opt/local/lib/libopencv_imgproc.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3181#155#0(6@0"320547795#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_imgproc.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3336#153#0(6@0"320547795#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_imgproc.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3489#149#0(6@0"320547795#0#0#0#0#0"0(22@140"In /opt/local/lib/libopencv_legacy.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3638#154#0(6@0"320547795#0#0#0#0#0"0(22@138"In /opt/local/lib/libopencv_legacy.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3792#152#0(6@0"320547795#0#0#0#0#0"0(22@134"In /opt/local/lib/libopencv_legacy.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#3944#148#0(6@0"320547795#0#0#0#0#0"0(22@136"In /opt/local/lib/libopencv_ml.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4092#150#0(6@0"320547795#0#0#0#0#0"0(22@134"In /opt/local/lib/libopencv_ml.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4242#148#0(6@0"320547795#0#0#0#0#0"0(22@130"In /opt/local/lib/libopencv_ml.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4390#144#0(6@0"320547795#0#0#0#0#0"0(22@143"In /opt/local/lib/libopencv_objdetect.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4534#157#0(6@0"320547795#0#0#0#0#0"0(22@141"In /opt/local/lib/libopencv_objdetect.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4691#155#0(6@0"320547795#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_objdetect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4846#151#0(6@0"320547795#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_video.2.2.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#4997#153#0(6@0"320547795#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_video.2.2.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#5150#151#0(6@0"320547795#0#0#0#0#0"0(22@133"In /opt/local/lib/libopencv_video.dylib, file was built for unsupported file format which is not the architecture being linked (i386)320547795#5301#147#0(6@0"320547795#0#0#0#0#0"0(4@33""_cvReleaseMat", referenced from:320547795#5467#36#0(6@0"320547795#0#0#0#0#0"0(13@25"_cvReleaseMatND in main.o320547795#5503#32#0(6@0"320547795#0#0#0#0#0"0(4@43""_cvInitSubdivDelaunay2D", referenced from:320547795#5535#46#0(6@0"320547795#0#0#0#0#0"0(13@35"_cvCreateSubdivDelaunay2D in main.o320547795#5581#42#0(6@0"320547795#0#0#0#0#0"0(4@27""_cvAddS", referenced from:320547795#5623#30#0(6@0"320547795#0#0#0#0#0"0(13@17"_cvSubS in main.o320547795#5653#24#0(6@0"320547795#0#0#0#0#0"0(4@32""_cvLoadImage", referenced from:320547795#5677#35#0(6@0"320547795#0#0#0#0#0"0(13@15"_main in main.o320547795#5712#22#0(6@0"320547795#0#0#0#0#0"0(4@31""_cvSeqSlice", referenced from:320547795#5734#34#0(6@0"320547795#0#0#0#0#0"0(13@21"_cvCloneSeq in main.o320547795#5768#28#0(6@0"320547795#0#0#0#0#0"0(4@30""_cvEllipse", referenced from:320547795#5796#33#0(6@0"320547795#0#0#0#0#0"0(13@23"_cvEllipseBox in main.o320547795#5829#30#0(6@0"320547795#0#0#0#0#0"0(4@27""_cvRead", referenced from:320547795#5859#30#0(6@0"320547795#0#0#0#0#0"0(13@23"_cvReadByName in main.o320547795#5889#30#0(6@0"320547795#0#0#0#0#0"0(4@34""_cvNamedWindow", referenced from:320547795#5919#37#0(6@0"320547795#0#0#0#0#0"0(13@15"_main in main.o320547795#5956#22#0(6@0"320547795#0#0#0#0#0"0(4@35""_cvReleaseImage", referenced from:320547795#5978#38#0(6@0"320547795#0#0#0#0#0"0(13@15"_main in main.o320547795#6016#22#0(6@0"320547795#0#0#0#0#0"0(4@32""_cvShowImage", referenced from:320547795#6038#35#0(6@0"320547795#0#0#0#0#0"0(13@15"_main in main.o320547795#6073#22#0(6@0"320547795#0#0#0#0#0"0(4@28""_cvFree_", referenced from:320547795#6095#31#0(6@0"320547795#0#0#0#0#0"0(13@23"_cvDecRefData in main.o320547795#6126#30#0(6@0"320547795#0#0#0#0#0"0(13@23"_cvDecRefData in main.o320547795#6156#30#0(6@0"320547795#0#0#0#0#0"0(4@34""_cvCalcArrHist", referenced from:320547795#6186#37#0(6@0"320547795#0#0#0#0#0"0(13@21"_cvCalcHist in main.o320547795#6223#28#0(6@0"320547795#0#0#0#0#0"0(4@36""_cvDestroyWindow", referenced from:320547795#6251#39#0(6@0"320547795#0#0#0#0#0"0(13@15"_main in main.o320547795#6290#22#0(6@0"320547795#0#0#0#0#0"0(4@40""_cvGetFileNodeByName", referenced from:320547795#6312#43#0(6@0"320547795#0#0#0#0#0"0(13@26"_cvReadIntByName in main.o320547795#6355#33#0(6@0"320547795#0#0#0#0#0"0(13@27"_cvReadRealByName in main.o320547795#6388#34#0(6@0"320547795#0#0#0#0#0"0(13@29"_cvReadStringByName in main.o320547795#6422#36#0(6@0"320547795#0#0#0#0#0"0(13@23"_cvReadByName in main.o320547795#6458#30#0(6@0"320547795#0#0#0#0#0"0(4@29""_cvSetAdd", referenced from:320547795#6488#32#0(6@0"320547795#0#0#0#0#0"0(13@19"_cvSetNew in main.o320547795#6520#26#0(6@0"320547795#0#0#0#0#0"0(4@33""_cvGetSeqElem", referenced from:320547795#6546#36#0(6@0"320547795#0#0#0#0#0"0(13@23"_cvGetSetElem in main.o320547795#6582#30#0(6@0"320547795#0#0#0#0#0"0(4@32""_cvArcLength", referenced from:320547795#6612#35#0(6@0"320547795#0#0#0#0#0"0(13@29"_cvContourPerimeter in main.o320547795#6647#36#0(6@0"320547795#0#0#0#0#0"0(4@30""_cvWaitKey", referenced from:320547795#6683#33#0(6@0"320547795#0#0#0#0#0"0(13@15"_main in main.o320547795#6716#22#0(6@0"320547795#0#0#0#0#0"0(4@37""_cvCreateSubdiv2D", referenced from:320547795#6738#40#0(6@0"320547795#0#0#0#0#0"0(13@35"_cvCreateSubdivDelaunay2D in main.o320547795#6778#42#0(6@0"320547795#0#0#0#0#0"0(4@31""_cvInitFont", referenced from:320547795#6820#34#0(6@0"320547795#0#0#0#0#0"0(13@17"_cvFont in main.o320547795#6854#24#0(6@0"320547795#0#0#0#0#0"0(4@30""_cvGetCols", referenced from:320547795#6878#33#0(6@0"320547795#0#0#0#0#0"0(13@19"_cvGetCol in main.o320547795#6911#26#0(6@0"320547795#0#0#0#0#0"0(4@30""_cvGetRows", referenced from:320547795#6937#33#0(6@0"320547795#0#0#0#0#0"0(13@19"_cvGetRow in main.o320547795#6970#26#0(6@0"320547795#0#0#0#0#0"0(13@19"Symbol(s) not found320547795#6996#24#0(6@0"320547795#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status320547795#7020#36#0(6@0"320547795#0#0#0#0#0"0(0#0#0"8630467392#1370"    cd /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug -L/opt/local/lib -F/Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug -filelist /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/stoplight.build/Debug/stoplight.build/Objects-normal/i386/stoplight.LinkFileList -mmacosx-version-min=10.6 -lopencv_calib3d.2.2.0 -lopencv_calib3d.2.2 -lopencv_calib3d -lopencv_contrib.2.2.0 -lopencv_contrib.2.2 -lopencv_contrib -lopencv_core.2.2.0 -lopencv_core.2.2 -lopencv_core -lopencv_features2d.2.2.0 -lopencv_features2d.2.2 -lopencv_features2d -lopencv_flann.2.2.0 -lopencv_flann.2.2 -lopencv_flann -lopencv_gpu.2.2.0 -lopencv_gpu.2.2 -lopencv_gpu -lopencv_highgui.2.2.0 -lopencv_highgui.2.2 -lopencv_highgui -lopencv_imgproc.2.2.0 -lopencv_imgproc.2.2 -lopencv_imgproc -lopencv_legacy.2.2.0 -lopencv_legacy.2.2 -lopencv_legacy -lopencv_ml.2.2.0 -lopencv_ml.2.2 -lopencv_ml -lopencv_objdetect.2.2.0 -lopencv_objdetect.2.2 -lopencv_objdetect -lopencv_video.2.2.0 -lopencv_video.2.2 -lopencv_video -o /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight1#
+
+CLd /Users/johnjessen/Desktop/CS210/Stop-Light-Image-Processing/stoplight/build/Debug/stoplight normal x86_64
+r0
+

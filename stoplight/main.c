@@ -11,6 +11,7 @@
 #define S_THRESHOLD .13
 #define I_THRESHOLD 100
 #define PI 3.14159265
+#define BASE_SIZE 500
 
 uchar Intensity(uchar r, uchar g, uchar b)
 {
@@ -68,9 +69,43 @@ void ColorScreening(IplImage *src, IplImage *dst)
 	}
 }
 
-void LabelRegions()
+void blobUnion(int *labels)
 {
 	
+}
+
+void LabelRegions(IplImage* src, IplImage* dst)
+{
+	int *labels = malloc(sizeof(int *)*BASE_SIZE);
+	uchar count = 1;
+	for (int i = 1; i < src->height; i++) {
+		uchar* sp = (uchar*)(src->imageData + i*src->widthStep);
+		uchar* dp = (uchar*)(dst->imageData + i*src->widthStep);
+		uchar* dp_a = (uchar*)(dst->imageData + (i-1)*src->widthStep);
+		for (int j = 1; j < src->width; j++) {
+			unsigned int r = sp[3*j+2];
+			if (r > 0) {
+				dp[3*j+2] = dp[3*(j-1)+2];
+				if (dp_a[3*j+2] != 0) {
+					if (dp[3*j+2] == 0) {
+						dp[3*j+2] = dp[3*(j-1)+2];
+					} else {
+						//UNION
+					}
+				} else {
+					if (dp[3*j+2] == 0) {
+						dp[3*j+2] = count;
+						count++;
+					}
+				}
+				
+			} else {
+				//dp[3*j] = 0;
+				//dp[3*j+1] = 0;
+				//dp[3*j+2] = 0;
+			}
+		}
+	}
 }
 
 int main (int argc, const char * argv[]) {
@@ -82,11 +117,11 @@ int main (int argc, const char * argv[]) {
 	IplImage* redDilate = cvCreateImage(sz, redLight->depth, redLight->nChannels);
 	
 	ColorScreening(redLight, redScreened);
-//	cvDilate(redScreened, redDilate, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
-//	cvErode(redDilate, redErode, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+	cvDilate(redScreened, redDilate, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+	cvErode(redDilate, redErode, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
 	
-	cvDilate(redScreened, redDilate, NULL, 1);
-	cvErode(redDilate, redErode, NULL, 1);
+//	cvDilate(redScreened, redDilate, NULL, 1);
+//	cvErode(redDilate, redErode, NULL, 1);
 	
 	cvNamedWindow("Light Detector",CV_WINDOW_AUTOSIZE); 
 	cvShowImage("Light Detector", redLight);
