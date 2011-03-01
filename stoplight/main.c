@@ -82,8 +82,11 @@ int main (int argc, const char * argv[]) {
 	IplImage* redDilate = cvCreateImage(sz, redLight->depth, redLight->nChannels);
 	
 	ColorScreening(redLight, redScreened);
-	cvDilate(redScreened, redDilate, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
-	cvErode(redDilate, redErode, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+//	cvDilate(redScreened, redDilate, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+//	cvErode(redDilate, redErode, cvCreateStructuringElementEx(13, 13, 6, 6, CV_SHAPE_RECT, NULL), 1);
+	
+	cvDilate(redScreened, redDilate, NULL, 1);
+	cvErode(redDilate, redErode, NULL, 1);
 	
 	cvNamedWindow("Light Detector",CV_WINDOW_AUTOSIZE); 
 	cvShowImage("Light Detector", redLight);
@@ -94,7 +97,6 @@ int main (int argc, const char * argv[]) {
 	cvWaitKey(0);
 	cvShowImage("Light Detector", redErode);
 	cvWaitKey(0);
-
 	cvShowImage("Light Detector", greenLight);
 	cvWaitKey(0);
 	
